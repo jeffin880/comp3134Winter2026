@@ -1,0 +1,6 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tracert 159.203.33.39
+Command 'tracert' not found, did you mean:
+  command 'tracer' from deb pvm-dev (3.4.6-5)
+  command 'tracert6' from deb ndisc6 (1.0.4-2ubuntu2)
+Try: apt install <deb name>
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 

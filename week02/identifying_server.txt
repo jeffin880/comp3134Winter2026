@@ -1,0 +1,94 @@
+USER@Jeffin-Lap MINGW64 /d/Winter2026/comp3134Winter2026/week01 (main)
+$ ssh root@159.203.33.39
+root@159.203.33.39's password: 
+Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.8.0-88-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Sun Feb  1 02:14:23 UTC 2026
+
+  System load:  0.01               Processes:             111
+  Usage of /:   12.7% of 23.17GB   Users logged in:       0
+  Memory usage: 62%                IPv4 address for eth0: 159.203.33.39
+  Swap usage:   0%                 IPv4 address for eth0: 10.20.0.5
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+********************************************************************************
+
+Welcome to DigitalOcean's 1-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP 1-Click Quickstart guide: https://do.co/3gY97ha#start
+ * Your LAMP website: http://159.203.33.39
+
+On the server:
+ * The default web root is located at /var/www/html
+ * If you're using the embedded database, the MySQL root password
+   is saved in /root/.digitalocean_password. If you've opted in to
+   using a DBaaS instance with DigitalOcean, you will find your
+   credentials written to /root/.digitalocean_dbaas_credentials
+   and you will have access to a DATABASE_URL environment variable
+   holding your database connection string.
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   https://do.co/3gY97ha#enable-https for more detail.
+
+For help and more information, visit https://do.co/3gY97ha
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+Last login: Sun Feb  1 02:07:19 2026 from 99.238.85.27
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# hostnamectl
+ Static hostname: lamp-ubuntu-s-1vcpu-1gb-tor1-01
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 2b32defbe7c57b908f37f0e6697eb145
+         Boot ID: 17cd0cf0a2b34f5b8289f94c742dece1
+  Virtualization: kvm
+Operating System: Ubuntu 24.04.3 LTS
+          Kernel: Linux 6.8.0-88-generic
+    Architecture: x86-64
+ Hardware Vendor: DigitalOcean
+  Hardware Model: Droplet
+Firmware Version: 20171212
+   Firmware Date: Tue 2017-12-12
+    Firmware Age: 8y 1month 2w 6d                 
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# uname -a
+Linux lamp-ubuntu-s-1vcpu-1gb-tor1-01 6.8.0-88-generic #89-Ubuntu SMP PREEMPT_DYNAMIC Sat Oct 11 01:02:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 1e:e2:92:36:14:3e brd ff:ff:ff:ff:ff:ff
+    altname enp0s3
+    altname ens3
+    inet 159.203.33.39/20 brd 159.203.47.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet 10.20.0.5/16 brd 10.20.255.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::1ce2:92ff:fe36:143e/64 scope link
+       valid_lft forever preferred_lft forever
+3: eth1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether e2:b8:32:c7:55:75 brd ff:ff:ff:ff:ff:ff
+    altname enp0s4
+    altname ens4
+    inet 10.118.0.2/20 brd 10.118.15.255 scope global eth1
+       valid_lft forever preferred_lft forever
+    inet6 fe80::e0b8:32ff:fec7:5575/64 scope link
+       valid_lft forever preferred_lft forever
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
