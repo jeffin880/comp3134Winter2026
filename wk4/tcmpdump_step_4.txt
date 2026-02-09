@@ -1,0 +1,10 @@
+02:10:57.159867 IP 172-104-110-230.ip.linodeusercontent.com.33241 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.21026: UDP, length 25
+02:10:57.202268 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.52016 > 67.207.67.3.domain: 43423+ [1au] PTR? 39.33.203.159.in-addr.arpa. (55)
+02:10:57.287549 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.52016: 43423 NXDomain 0/1/1 (122)
+02:10:57.288366 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.48170 > 67.207.67.3.domain: 48778+ [1au] PTR? 230.110.104.172.in-addr.arpa. (57)
+02:10:57.288455 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.37020 > 67.207.67.3.domain: 35232+ [1au] PTR? 230.110.104.172.in-addr.arpa. (57)
+02:10:57.293852 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.37020: 35232 1/0/1 PTR 172-104-110-230.ip.linodeusercontent.com. (111)
+02:10:57.294093 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.48170: 48778 1/0/1 PTR 172-104-110-230.ip.linodeusercontent.com. (111)
+02:10:58.225694 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.59056 > 67.207.67.3.domain: 7393+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+02:10:58.225845 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.53227 > 67.207.67.3.domain: 40584+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+02:10:58.245641 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.53227: 40584 NXDomain 0/1/1 (120)

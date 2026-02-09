@@ -1,0 +1,10 @@
+02:07:59.754244 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-85-27.cpe.net.cable.rogers.com.63304: Flags [P.], seq 4082246391:4082246499, ack 2708223321, win 521, length 108
+02:07:59.754316 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-85-27.cpe.net.cable.rogers.com.63304: Flags [P.], seq 108:144, ack 1, win 521, length 36
+02:07:59.754378 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-85-27.cpe.net.cable.rogers.com.63304: Flags [P.], seq 144:196, ack 1, win 521, length 52
+02:07:59.754439 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-85-27.cpe.net.cable.rogers.com.63304: Flags [P.], seq 196:264, ack 1, win 521, length 68
+02:07:59.754497 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-85-27.cpe.net.cable.rogers.com.63304: Flags [P.], seq 264:332, ack 1, win 521, length 68
+02:07:59.754549 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-85-27.cpe.net.cable.rogers.com.63304: Flags [P.], seq 332:368, ack 1, win 521, length 36
+02:07:59.822749 IP pool-99-238-85-27.cpe.net.cable.rogers.com.63304 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 0, win 251, length 36
+02:07:59.822750 IP pool-99-238-85-27.cpe.net.cable.rogers.com.63304 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 250, length 0
+02:07:59.822835 IP pool-99-238-85-27.cpe.net.cable.rogers.com.63304 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 0, win 251, length 36
+02:07:59.822835 IP pool-99-238-85-27.cpe.net.cable.rogers.com.63304 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 73:109, ack 368, win 250, length 36
